@@ -346,6 +346,9 @@ header nav .nav-content button {
   background: transparent;
   margin-top: 18px;
 }
+.section5 a {
+  text-decoration: none;
+}
 .section5 .sec5-box {
   margin-bottom: 24px;
 }
