@@ -339,7 +339,7 @@ header {
         background: transparent;
         margin-top: 18px;
     }
-    a{
+    a {
         text-decoration: none;
     }
     .sec5-box {
@@ -386,26 +386,35 @@ footer {
                 }
             }
         }
-        .social-media{
-            img{
+        .social-media {
+            img {
                 margin-bottom: 0px;
                 margin-right: 14px;
             }
         }
     }
 }
-.disclaimer{
+.disclaimer {
     margin-top: 42px;
-    background: #FC642D;
+    background: #fc642d;
     padding: 18px 0px;
-    h1{
+    h1 {
         text-align: center;
         margin-bottom: 0px;
-        font-family: 'Inter',serif;
-font-style: normal;
-font-weight: 500;
-font-size: 15px;
-line-height: 22px;
-color: #FFFFFF;
+        font-family: "Inter", serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+        color: #ffffff;
+    }
+}
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+    .section1 {
+        h1 {
+            font-size: 24px;
+            line-height: 36px;
+            padding: 0px;
+        }
     }
 }

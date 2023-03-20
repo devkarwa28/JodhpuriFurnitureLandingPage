@@ -400,7 +400,7 @@ footer .footer-content .social-media img {
 
 .disclaimer {
   margin-top: 42px;
-  background: #FC642D;
+  background: #fc642d;
   padding: 18px 0px;
 }
 .disclaimer h1 {
@@ -411,5 +411,13 @@ footer .footer-content .social-media img {
   font-weight: 500;
   font-size: 15px;
   line-height: 22px;
-  color: #FFFFFF;
+  color: #ffffff;
+}
+
+@media only screen and (min-width: 200px) and (max-width: 576px) {
+  .section1 h1 {
+    font-size: 24px;
+    line-height: 36px;
+    padding: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
