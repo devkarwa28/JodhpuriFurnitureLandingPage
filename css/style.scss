@@ -411,10 +411,108 @@ footer {
 }
 @media only screen and (min-width: 200px) and (max-width: 576px) {
     .section1 {
+        img {
+            width: 100%;
+        }
         h1 {
             font-size: 24px;
             line-height: 36px;
             padding: 0px;
         }
+        .sec1-content {
+            padding-left: 0px;
+            text-align: center;
+            h3 {
+                padding-right: 0px;
+                font-size: 42px;
+                line-height: 46px;
+            }
+            p {
+                font-size: 14px;
+                line-height: 22px;
+            }
+            .sec1-box {
+                margin-right: 10px;
+                h4 {
+                    font-size: 32px;
+                    line-height: 36px;
+                }
+            }
+        }
     }
-}
+    .section2{
+        .sec2-box{
+            img{
+                width: 100%;
+            }
+            .sec2-box-content{
+                padding: 12px 12px 12px 18px;
+                h3{
+                    font-size: 20px;
+                    width: 195px;
+                }
+                button {
+                    padding: 10px 14px;
+                    font-size: 12px;
+                }
+            }
+            }
+        }
+        .section3{
+            .sec3-box{
+                margin: 12px 0px;
+            }
+        }
+        .section4 {
+            margin-top: 60px;
+            h2 {
+                font-size: 32px;
+                line-height: 38px;
+                margin-bottom: 32px;
+            }
+            .sec4-box {
+                border: 1px solid #dddddd;
+                border-radius: 8px;
+                margin-bottom: 24px;
+                padding: 25px 25px 25px 25px;
+                p {
+                    margin-bottom: 24px;
+                }
+            }
+        }
+        .section5 {
+            margin-top: 60px;
+            padding: 32px 0px;
+            .sec5-box{
+                img{
+                    width: 100%;
+                }
+                h3{
+                    margin-top: -36px;
+                    padding: 8px 16px;
+                    font-size: 20px;
+                }
+            }
+        }
+        footer{
+            padding-top: 40px;
+            .footer-content{
+                display: block;
+                .details{
+                    a{
+                        display: block;
+                        margin-bottom: 10px;
+                    }
+                }
+                .social-media{
+                    margin-top: 24px;
+                }
+            }
+        }
+        .disclaimer {
+            h1 {
+                font-size: 12px;
+                line-height: 15px;
+              }
+        }
+    }
