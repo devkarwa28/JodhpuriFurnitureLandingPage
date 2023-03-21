@@ -410,6 +410,16 @@ footer {
     }
 }
 @media only screen and (min-width: 200px) and (max-width: 576px) {
+    .sm-none{
+        display: none !important;
+    }
+    header{
+        nav{
+            .nav-content{
+                display: flex;
+            }
+        }
+    }
     .section1 {
         img {
             width: 100%;
